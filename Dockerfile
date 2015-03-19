@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y --force-yes \
       rm -rf /var/tmp/*
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
-ENV SPARK_VERSION 1.2.0
+ENV SPARK_VERSION 1.3.0
 ENV SPARK_HOME /opt/spark
 
 # Install Spark
